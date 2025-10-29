@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./../css/styles.css">
+</head>
+
+<body>
+    <div>
+        <form action="" class="formulario">
+            <h2 class="titulo">Fale Conosco</h2>
+            <label class="label">
+                <input id="nome" name="nome" type="text" class="input-bordas" placeholder="Nome" required
+                    value="Robson">
+                <span class="focus-border"> <i></i> </span>
+            </label>
+
+            <label class="label">
+                <input id="email" name="email" type="email" class="input-bordas" placeholder="E-mail" required
+                    value="robsonsouza@gmail.com">
+                <span class="focus-border"> <i></i> </span>
+            </label>
+
+            <label class="label">
+
+                <select class="input-bordas select" name="assunto" id="assunto">
+                    <option value="feedback">Retorno sobre o projeto</option>
+                    <option value="sugest">Sugestão para projeto</option>
+                    <option value="new-project">Novo projeto</option>
+                    <option value="mensagem">Uma mensagem</option>
+                </select>
+                <span class="focus-border"> <i></i> </span>
+
+            </label>
+
+
+            <label class="label">
+
+                <textarea type="text" class="input-bordas textarea" rows="4" placeholder="Mensagem" required></textarea>
+                <span class="focus-border"> <i></i> </span>
+
+            </label>
+
+            <button class="button-form borda-inversa" type="submit">Enviar</button>
+
+        </form>
+    </div>
+    <script>
+        function validaForm() {
+            const email = document.getElementById('email');
+            let emailText = email.value.trim();
+            if (emailText.includes("@")) {
+                console.log("Achei @!")
+            }
+            let partesEmail = emailText.split("@");
+            if (partesEmail[0].length >= 7 && partesEmail[0].length <= 127) {
+                console.log("O tamanho está entre 7 e 127");
+            }
+
+        }
+        document.addEventListener("submit", function (e) {
+            e.preventDefault();
+            validaForm();
+        })
+    </script>
+</body>
+
+</html>
