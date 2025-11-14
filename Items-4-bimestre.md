@@ -1,19 +1,21 @@
 # Fabrica de Sites:
-- [ ] Escolha do Tema
-- [ ] Desenvolvimento do Tema
+- [ ] Escolha do Tema:
+- [ ] Desenvolvimento do Tema:
     - [ ] Desenvolvimento de 1 tópico do tema;
     - [ ] Desenvolvimento de 2 tópicos do tema;
-    - [ ] Desenvolvimento de 2 tópicos do tema;
+    - [ ] Desenvolvimento de 3 tópicos do tema;
+- [ ] Solução de um problema;
 - [ ] Uso de HTML corretamente;
-- [ ] Menu em todas as páginas
-    - [ ] Links corretos
-    - [ ] Tudo conectado
-- [ ] Um site bonito usando CSS;
+- [ ] Uso de JS corretamente;
+- [ ] Menu em todas as páginas:
+    - [ ] Links corretos;
+    - [ ] Tudo conectado;
+- [ ] Um site bonito usando CSS:
     - [ ] Cores boas;
     - [ ] Menu com estilo;
-    - [ ] Imagens bem aplicadas
-    - [ ] Fontes boas para leitura
-- [ ] Formulário de comentários
-    - [ ] Há validação dos campos nome, email e mensagem (quando selecionado a opção mensagem)
-- [ ] Informações sobre as ferramentas utilizadas
-- [ ] Diagnóstico do projeto e relato das dificuldades
+    - [ ] Imagens bem aplicadas;
+    - [ ] Fontes boas para leitura;
+- [ ] Formulário de comentários:
+    - [ ] Há validação dos campos nome, email e mensagem (quando selecionado a opção mensagem);
+- [ ] Informações sobre as ferramentas utilizadas;
+- [ ] Diagnóstico do projeto e relato das dificuldades;
